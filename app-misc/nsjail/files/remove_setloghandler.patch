@@ -1,0 +1,24 @@
+diff --git a/config.cc b/config.cc
+index 5b91ff0..3b010df 100644
+--- a/config.cc
++++ b/config.cc
+@@ -303,11 +303,6 @@ static bool parseInternal(nsjconf_t* nsjconf, const nsjail::NsJailConfig& njc) {
+ 
+ static std::list<std::string> error_messages;
+ 
+-static void logHandler(
+-    google::protobuf::LogLevel level, const char* filename, int line, const std::string& message) {
+-	error_messages.push_back(message);
+-}
+-
+ static void flushLog() {
+ 	for (auto message : error_messages) {
+ 		LOG_W("ProtoTextFormat: %s", message.c_str());
+@@ -332,7 +327,6 @@ bool parseFile(nsjconf_t* nsjconf, const char* file) {
+ 	static nsjail::NsJailConfig json_nsc;
+ 	static nsjail::NsJailConfig text_nsc;
+ 
+-	google::protobuf::SetLogHandler(logHandler);
+ 	auto json_status = google::protobuf::util::JsonStringToMessage(conf, &json_nsc);
+ 	bool text_parsed = google::protobuf::TextFormat::ParseFromString(conf, &text_nsc);
+ 
