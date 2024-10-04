@@ -1,0 +1,7 @@
+acct-group/onepassword 0: Group for the 1Password password manager
+acct-group/onepassword-cli 0: Group for the 1Password password manager
+app-admin/1password 8.10.40: Password Manager
+app-admin/op-cli-bin 2.30.0: command line interface for the 1password password manager
+app-forensics/bindiff 8: Comparison tool for binary files
+app-misc/nsjail 9999: nsjail is a process isolation tool for Linux.
+dev-util/ghidra-bin 11.1.2: A software reverse engineering framework
