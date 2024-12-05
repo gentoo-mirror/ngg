@@ -1,7 +1,7 @@
 acct-group/onepassword 0: Group for the 1Password password manager
 acct-group/onepassword-cli 0: Group for the 1Password password manager
-app-admin/1password 8.10.40: Password Manager
-app-admin/op-cli-bin 2.30.0: command line interface for the 1password password manager
+app-admin/1password 8.10.54: Password Manager
+app-admin/op-cli-bin 2.30.3: command line interface for the 1password password manager
 app-admin/systemrescuecd-x86 11.02: The .iso image of SystemRescue rescue disk, amd64 variant
 app-forensics/bindiff 8: Comparison tool for binary files
 app-misc/nsjail 9999: nsjail is a process isolation tool for Linux.
