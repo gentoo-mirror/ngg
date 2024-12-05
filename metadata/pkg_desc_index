@@ -4,4 +4,5 @@ app-admin/1password 8.10.40: Password Manager
 app-admin/op-cli-bin 2.30.0: command line interface for the 1password password manager
 app-forensics/bindiff 8: Comparison tool for binary files
 app-misc/nsjail 9999: nsjail is a process isolation tool for Linux.
+dev-util/bcompare 5.0.4.30422: Compare, merge files and folders using simple, powerful commands.
 dev-util/ghidra-bin 11.1.2: A software reverse engineering framework
