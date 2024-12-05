@@ -6,7 +6,7 @@
 
 ```bash
 emerge app-eselect/eselect-repository
-eselect repository add ngg git https://github.com/ngg/ngg-gentoo-overlay.git
+eselect repository enable ngg
 ```
 
 ## License
