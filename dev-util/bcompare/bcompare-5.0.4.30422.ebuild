@@ -22,9 +22,16 @@ RDEPEND="
 	dev-libs/glib
 	dev-libs/libbsd
 	dev-libs/libpcre
+	dev-qt/qtcore:5
+	dev-qt/qtgui:5
+	dev-qt/qtnetwork:5
+	dev-qt/qtprintsupport:5
+	dev-qt/qtwidgets:5
+	dev-qt/qtx11extras:5
 	media-libs/fontconfig
 	media-libs/freetype
 	media-libs/libpng
+	sys-apps/dbus
 	sys-apps/util-linux
 	sys-libs/zlib
 	x11-libs/libX11
