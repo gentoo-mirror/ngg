@@ -31,6 +31,7 @@ RDEPEND="
 	media-libs/fontconfig
 	media-libs/freetype
 	media-libs/libpng
+	sys-apps/dbus
 	sys-apps/util-linux
 	sys-libs/zlib
 	x11-libs/libX11
