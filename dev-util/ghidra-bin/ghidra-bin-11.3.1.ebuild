@@ -4,10 +4,12 @@
 EAPI=8
 inherit desktop
 
+GHIDRA_DATE="20250219"
+
 DESCRIPTION="A software reverse engineering framework"
 HOMEPAGE="https://ghidra-sre.org/"
 
-SRC_URI="https://github.com/NationalSecurityAgency/ghidra/releases/download/Ghidra_${PV}_build/ghidra_${PV}_PUBLIC_20240709.zip"
+SRC_URI="https://github.com/NationalSecurityAgency/ghidra/releases/download/Ghidra_${PV}_build/ghidra_${PV}_PUBLIC_${GHIDRA_DATE}.zip"
 
 S="${WORKDIR}/ghidra_${PV}_PUBLIC"
 
