@@ -20,7 +20,7 @@ IUSE="doc"
 
 RDEPEND="
 	!dev-util/ghidra
-	virtual/jre:17
+	virtual/jre:21
 "
 DEPEND="
 	${RDEPEND}
@@ -60,6 +60,7 @@ src_install()
 
 	# executable
 	dosym ../share/ghidra/ghidraRun /usr/bin/ghidra
+	dosym ../share/ghidra/support/pyghidraRun /usr/bin/pyghidra
 
 	# desktop entry
 	make_desktop_entry ghidra "Ghidra" /usr/share/pixmaps/GhidraLogo64.png "Utility"
