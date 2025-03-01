@@ -20,7 +20,7 @@ IUSE="doc"
 
 RDEPEND="
 	!dev-util/ghidra
-	virtual/jre:21
+	 >=virtual/jre-21:*
 "
 DEPEND="
 	${RDEPEND}
