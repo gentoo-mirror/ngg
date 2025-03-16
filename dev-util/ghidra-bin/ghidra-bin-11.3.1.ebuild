@@ -22,8 +22,7 @@ RDEPEND="
 	!dev-util/ghidra
 	 >=virtual/jre-21:*
 "
-DEPEND="
-	${RDEPEND}
+BDEPEND="
 	app-arch/unzip
 "
 
