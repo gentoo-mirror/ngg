@@ -5,6 +5,6 @@ app-admin/op-cli-bin 2.30.3: command line interface for the 1password password m
 app-admin/systemrescuecd-x86 11.02: The .iso image of SystemRescue rescue disk, amd64 variant
 app-forensics/bindiff 8: Comparison tool for binary files
 app-misc/nsjail 9999: nsjail is a process isolation tool for Linux.
-dev-util/bcompare 5.0.6.30713: Compare, merge files and folders using simple, powerful commands.
+dev-util/bcompare 5.0.7.30840: Compare, merge files and folders using simple, powerful commands.
 dev-util/ghidra-bin 11.3.1: A software reverse engineering framework
 x11-misc/xsecurelock 1.9.0: X11 screen lock utility with security in mind
