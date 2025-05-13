@@ -22,7 +22,6 @@ RDEPEND="${DEPEND}"
 
 PATCHES=(
 	"${FILESDIR}/makefile.patch"
-	"${FILESDIR}/remove_setloghandler.patch"
 )
 
 src_prepare() {
@@ -32,5 +31,6 @@ src_prepare() {
 
 src_install() {
 	dobin nsjail
-	dodoc README.md
+	dodoc README.md config.proto
+	dodoc -r configs
 }
