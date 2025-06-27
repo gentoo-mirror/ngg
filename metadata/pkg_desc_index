@@ -1,6 +1,6 @@
 acct-group/onepassword 0: Group for the 1Password password manager
 acct-group/onepassword-cli 0: Group for the 1Password password manager
-app-admin/1password 8.10.80: Password Manager
+app-admin/1password 8.10.82: Password Manager
 app-admin/op-cli-bin 2.31.1: command line interface for the 1password password manager
 app-admin/systemrescuecd-x86 11.02: The .iso image of SystemRescue rescue disk, amd64 variant
 app-forensics/bindiff 8: Comparison tool for binary files
