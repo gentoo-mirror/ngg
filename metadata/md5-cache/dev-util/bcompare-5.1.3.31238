@@ -7,6 +7,6 @@ KEYWORDS=amd64
 LICENSE=bcompare-5
 RDEPEND=app-arch/bzip2 dev-libs/expat dev-libs/glib dev-libs/libbsd dev-libs/libpcre dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtnetwork:5 dev-qt/qtprintsupport:5 dev-qt/qtwidgets:5 dev-qt/qtx11extras:5 media-libs/fontconfig media-libs/freetype media-libs/libpng sys-apps/dbus sys-apps/util-linux sys-libs/zlib x11-libs/libX11 x11-libs/libXau x11-libs/libxcb x11-libs/libXdmcp x11-libs/libXext x11-libs/libXrender
 SLOT=0
-SRC_URI=https://www.scootersoftware.com/bcompare-5.1.2.31185.x86_64.tar.gz
+SRC_URI=https://www.scootersoftware.com/bcompare-5.1.3.31238.x86_64.tar.gz
 _eclasses_=xdg-utils	42869b3c8d86a70ef3cf75165a395e09
 _md5_=b2fe86560541b5116d87eda5b806ba2f
